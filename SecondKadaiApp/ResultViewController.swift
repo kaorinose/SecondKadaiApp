@@ -9,11 +9,20 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    // 2画面目のLabelを、StoryboardでこのViewControllerにIBOutletとして接続しておく
+    @IBOutlet weak var lavel: UILabel!
+    
+    var text = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
+        let result = text
+        lavel.text = "こんにちは、 \(result) さん"
+        
     }
     
 

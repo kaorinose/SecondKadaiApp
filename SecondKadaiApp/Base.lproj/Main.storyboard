@@ -47,6 +47,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="textfield" destination="axy-Nr-7KX" id="Q7Q-hO-HxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,6 +88,9 @@
                         <viewLayoutGuide key="safeArea" id="BVc-Uc-b6w"/>
                     </view>
                     <navigationItem key="navigationItem" id="icc-Nm-tMH"/>
+                    <connections>
+                        <outlet property="lavel" destination="hnM-en-DO3" id="eRT-UM-Kgc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dna-Md-aHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="RJ6-YQ-pHH" userLabel="Exit" sceneMemberID="exit"/>
